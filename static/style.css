@@ -1,0 +1,51 @@
+header{
+    background-color:rgb(204, 135, 250);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(204, 135, 250);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+    font-size: 50px;
+    text-shadow: 2px 2px 2px gray;
+}
+
+a{
+    color: rgb(255, 0, 247);
+    font-weight: bold; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: orange;
+}
+
+.addpost{
+    input[type='text']{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    label{
+        font-weight: bold;
+    }
+}
+.center{
+    text-align: center;
+}
